@@ -1,0 +1,18 @@
+<html>
+	<head>
+
+	</head>
+	<body>
+		<form method="post" action="/">
+			Add to list: <input type="text" id="link" name="link"> </input>
+			<input type="button" value="Submit"> 
+		</form>
+		<br>
+		{% for i in arr %}
+		<ul>
+			<li> {{i}}</li>
+		</ul>
+		{%endfor%}
+	</body>
+
+</html>

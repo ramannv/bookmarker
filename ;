@@ -1,0 +1,12 @@
+<html>
+	<head>
+
+	</head>
+	<body>
+		<form method="post" action="/add">
+			Add to list: <input type="text" name="link"> </input>
+			<input type="button" value="Submit"> 
+		</form>
+	</body>
+
+</html>
